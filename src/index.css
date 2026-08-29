@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0a0502;
+    color: #d1d1d1;
+    font-family: 'Newsreader', Georgia, serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom scrollbars matching Elegant Dark palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0502;
+  border-left: 1px solid #3a2d1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a2d1f;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c4a484;
+}

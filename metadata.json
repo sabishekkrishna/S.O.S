@@ -1,0 +1,7 @@
+{
+  "name": "The Thorne Estate: 1932 Archival Vault",
+  "description": "Interactive 1932 archival restored film player, evidence investigation desk, and subterranean vault experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
